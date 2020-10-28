@@ -248,6 +248,12 @@ body.lang-fr .flags .fr {
   xcolor: #ECBF25;
   xfont-weight: bold;
 }
+.page.page-accueil .videos .video .videoOuter {
+  max-width: 560px;
+  max-height: 340px;
+  text-align: center;
+  margin: 0 auto 20px auto;
+}
 .page.page-accueil .videos .video .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
