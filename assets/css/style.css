@@ -270,6 +270,33 @@ body.lang-fr .flags .fr {
   height: 100%;
   margin: auto;
 }
+.page.page-events {
+  text-align: center;
+}
+.page.page-events .events {
+  max-width: 749px;
+  margin: 0 auto 30px auto;
+  font-size: 18px;
+}
+.page.page-events .header .inner {
+  font-size: 22px;
+  display: inline-block;
+  background: #690F0F;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+.page.page-events .title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.page.page-events .hour {
+  color: #F38F1B;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 22px;
+}
 .page.page-liens ul {
   list-style: none;
   padding: 0;
