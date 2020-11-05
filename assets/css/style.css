@@ -270,18 +270,18 @@ body.lang-fr .flags .fr {
   height: 100%;
   margin: auto;
 }
-.page.page-events {
+.page.page-program {
   text-align: center;
 }
-.page.page-events .events {
+.page.page-program .events {
   max-width: 749px;
   margin: 0 auto 30px auto;
   font-size: 18px;
 }
-.page.page-events .header {
+.page.page-program .header {
   margin-top: 30px;
 }
-.page.page-events .header .inner {
+.page.page-program .header .inner {
   font-size: 22px;
   display: inline-block;
   background: #690F0F;
@@ -289,11 +289,11 @@ body.lang-fr .flags .fr {
   text-transform: uppercase;
   padding: 5px 10px;
 }
-.page.page-events .title {
+.page.page-program .title {
   font-weight: bold;
   margin-top: 10px;
 }
-.page.page-events .hour {
+.page.page-program .hour {
   color: #F38F1B;
   font-weight: bold;
   margin-top: 10px;
