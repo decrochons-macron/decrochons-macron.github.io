@@ -169,20 +169,24 @@ body.lang-fr .flags .fr {
   color: #690F0F;
   padding-top: 20px;
 }
-.page.page-accueil .program-link {
+.page.page-accueil .program-link,
+.page.page-testimony .program-link {
   font-size: 20px;
 }
-.page.page-accueil .indent {
+.page.page-accueil .indent,
+.page.page-testimony .indent {
   padding-left: 20px;
   border-left: 2px solid #bbb;
   margin: 10px 0 30px 0;
 }
-.page.page-accueil .testimony {
+.page.page-accueil .testimony,
+.page.page-testimony .testimony {
   padding-left: 30px;
   color: #999;
   font-weight: normal;
 }
-.page.page-accueil .intro {
+.page.page-accueil .intro,
+.page.page-testimony .intro {
   margin: 20px 0;
   text-align: left;
   max-width: 800px;
@@ -190,32 +194,40 @@ body.lang-fr .flags .fr {
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
 }
-.page.page-accueil .helloasso {
+.page.page-accueil .helloasso,
+.page.page-testimony .helloasso {
   text-align: center;
 }
-.page.page-accueil .helloasso .inner {
+.page.page-accueil .helloasso .inner,
+.page.page-testimony .helloasso .inner {
   display: inline-block;
   padding: 10px;
   border: 2px solid #690F0F;
   border-radius: 4px;
 }
-.page.page-accueil .helloasso .inner .head {
+.page.page-accueil .helloasso .inner .head,
+.page.page-testimony .helloasso .inner .head {
   font-weight: bold;
   margin-bottom: 5px;
 }
-.page.page-accueil .title {
+.page.page-accueil .title,
+.page.page-testimony .title {
   color: #690F0F;
 }
-.page.page-accueil .title img {
+.page.page-accueil .title img,
+.page.page-testimony .title img {
   margin-left: 12px;
 }
-.page.page-accueil .donate .fa-heart {
+.page.page-accueil .donate .fa-heart,
+.page.page-testimony .donate .fa-heart {
   margin-right: 10px;
 }
-.page.page-accueil .videos {
+.page.page-accueil .videos,
+.page.page-testimony .videos {
   margin-top: 35px;
 }
-.page.page-accueil .videos .video {
+.page.page-accueil .videos .video,
+.page.page-testimony .videos .video {
   border: 1px solid #ECBF25;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -223,53 +235,63 @@ body.lang-fr .flags .fr {
   text-align: center;
   margin: 10px auto 50px auto;
 }
-.page.page-accueil .videos .video .info {
+.page.page-accueil .videos .video .info,
+.page.page-testimony .videos .video .info {
   margin-bottom: 20px;
   padding: 10px;
   text-align: left;
 }
-.page.page-accueil .videos .video .info.pic .multi-col {
+.page.page-accueil .videos .video .info.pic .multi-col,
+.page.page-testimony .videos .video .info.pic .multi-col {
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
 }
-.page.page-accueil .videos .video .info.pic .multi-col .image {
+.page.page-accueil .videos .video .info.pic .multi-col .image,
+.page.page-testimony .videos .video .info.pic .multi-col .image {
   margin-right: 15px;
   width: 150px;
 }
-.page.page-accueil .videos .video .info.pic .multi-col .image img {
+.page.page-accueil .videos .video .info.pic .multi-col .image img,
+.page.page-testimony .videos .video .info.pic .multi-col .image img {
   width: 100%;
   max-width: 100%;
 }
-.page.page-accueil .videos .video .info .title {
+.page.page-accueil .videos .video .info .title,
+.page.page-testimony .videos .video .info .title {
   font-weight: bold;
   position: relative;
 }
-.page.page-accueil .videos .video .info .title .testimony {
+.page.page-accueil .videos .video .info .title .testimony,
+.page.page-testimony .videos .video .info .title .testimony {
   position: absolute;
   right: 0;
   top: 0;
 }
-.page.page-accueil .videos .video .info .fa-comment {
+.page.page-accueil .videos .video .info .fa-comment,
+.page.page-testimony .videos .video .info .fa-comment {
   position: relative;
   xmargin-top: -6px;
   xcolor: #ECBF25;
   xfont-weight: bold;
 }
-.page.page-accueil .videos .video .videoOuter {
+.page.page-accueil .videos .video .videoOuter,
+.page.page-testimony .videos .video .videoOuter {
   max-width: 560px;
   max-height: 340px;
   text-align: center;
   margin: 0 auto 20px auto;
 }
-.page.page-accueil .videos .video .videoWrapper {
+.page.page-accueil .videos .video .videoWrapper,
+.page.page-testimony .videos .video .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
   height: 0;
   border-radius: 4px;
 }
-.page.page-accueil .videos .video .videoWrapper iframe {
+.page.page-accueil .videos .video .videoWrapper iframe,
+.page.page-testimony .videos .video .videoWrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
