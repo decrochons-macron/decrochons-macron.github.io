@@ -55,7 +55,7 @@ global.setup = function () {
 }
 
 global.slideshow = function (name) {
-  if (name !== 'slideshow') {
+  if (name !== 'diaporama') {
     return;
   }
   if ($(".run-slideshow").hasClass("square1")) {
