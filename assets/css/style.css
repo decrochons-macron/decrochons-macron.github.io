@@ -448,6 +448,9 @@ body.lang-fr .flags .fr {
   .page {
     min-height: 0;
   }
+  img.topbanner {
+    max-height: 40px;
+  }
 }
 @media screen and (max-width: 1200px) {
   #footer {
