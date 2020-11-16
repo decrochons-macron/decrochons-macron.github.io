@@ -146,6 +146,11 @@ body.lang-fr .flags .fr {
   color: #690F0F;
   /*border-bottom:1px solid @vc-hover;*/
 }
+.page .mini-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
 .page.page-program h3 {
   margin: 40px 0;
   color: #690F0F;
