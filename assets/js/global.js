@@ -134,6 +134,7 @@ global.flags = function () {
     } else {
       $("html head title").html("Let's take down Macron - Trial in Valence")
     }
+    $('.navbar-collapse').collapse('hide');
   })
 }
 
