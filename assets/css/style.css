@@ -84,6 +84,39 @@ flex-basis: auto
 #header .header-wrapper nav .flags a:last-child {
   margin-right: 0;
 }
+.audio-wrapper .audio-block {
+  border: 1px solid #412264;
+  padding: 8px;
+  border-radius: 5px;
+  width: 380px;
+  max-width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+.audio-wrapper .audio-block audio {
+  width: 100%;
+}
+.audio-wrapper .audio-block .info {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.audio-wrapper .audio-block .credit {
+  min-height: 40px;
+  position: relative;
+  padding-left: 40px;
+  color: #888;
+  font-size: 13px;
+}
+.audio-wrapper .audio-block .credit a {
+  display: inline-block;
+  color: #412264;
+  line-height: normal;
+}
+.audio-wrapper .audio-block .credit img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 #pages {
   flex: 1 1 auto;
   background: #fff;

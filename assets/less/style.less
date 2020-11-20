@@ -3,6 +3,7 @@
 @vc-hover: #690F0F;
 @vc-link: #004085;
 @vc-hour: #F38F1B;
+@radio-blv:#412264;
 /* Additional slideshow css */
 [class*="slideshow"] {
   max-width: 600px; height: 450px; margin: 0 auto 40px; outline: none;
@@ -73,8 +74,26 @@ flex-basis: auto
       }
     }
   }
-}
-#pages {
+  }
+  .audio-wrapper {
+    .audio-block {
+      border:1px solid @radio-blv; padding:8px; border-radius:5px;
+      width:380px; max-width:100%;
+      display:inline-block; text-align:left;
+      audio {width:100%;}
+      .info {
+        font-size:13px; margin-bottom:10px;
+      }
+      .credit {
+        min-height:40px;
+        position: relative; padding-left:40px;
+        color:#888; font-size:13px;
+        a {display:inline-block; color:@radio-blv; line-height:normal;}
+        img {position: absolute; top:0; left:0;}
+      }
+    }
+  }
+  #pages {
   flex: 1 1 auto;
   background: #fff;
   padding-bottom: 80px;
