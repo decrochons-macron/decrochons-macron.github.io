@@ -27,6 +27,11 @@ body {
   height: 100%;
   margin: 0;
 }
+.inline-block {
+  display: inline-block;
+  max-width: 600px;
+  text-align: left;
+}
 h1 {
   margin-top: 15px;
 }
@@ -83,6 +88,9 @@ flex-basis: auto
 }
 #header .header-wrapper nav .flags a:last-child {
   margin-right: 0;
+}
+.audio-wrapper {
+  margin-bottom: 30px;
 }
 .audio-wrapper .audio-block {
   border: 1px solid #412264;
