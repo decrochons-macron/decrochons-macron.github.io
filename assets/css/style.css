@@ -29,8 +29,31 @@ body {
 }
 .inline-block {
   display: inline-block;
-  max-width: 600px;
+  max-width: 400px;
   text-align: left;
+  margin: 20px 0;
+}
+.support {
+  margin: 20px 0;
+}
+.main-wrapper {
+  max-width: 880px;
+}
+.main-wrapper .links {
+  padding-left: 13px;
+}
+.title.upper {
+  position: relative;
+  padding-right: 60px;
+}
+.title.upper a {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+.title.upper a img {
+  max-width: 50px;
 }
 h1 {
   margin-top: 15px;
@@ -243,6 +266,10 @@ body.lang-fr .flags .fr {
 .page.page-accueil .helloasso,
 .page.page-testimony .helloasso {
   text-align: center;
+}
+.page.page-accueil .helloasso .thank-you,
+.page.page-testimony .helloasso .thank-you {
+  margin-top: 20px;
 }
 .page.page-accueil .helloasso .inner,
 .page.page-testimony .helloasso .inner {
@@ -521,6 +548,13 @@ body.lang-fr .flags .fr {
   }
 }
 @media screen and (max-width: 574px) {
+  .title.upper {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .title.upper a {
+    top: 5px;
+  }
   .container {
     padding: 0;
   }

@@ -23,7 +23,19 @@ body {
   height: 100%;
   margin: 0;
 }
-.inline-block {display:inline-block; max-width:600px; text-align:left;}
+.inline-block {display:inline-block; max-width:400px; text-align:left; margin:20px 0;}
+.support {margin:20px 0;}
+.main-wrapper {
+  max-width:880px;
+  .links {padding-left:13px;}
+}
+.title.upper {
+  position:relative; padding-right:60px;
+  a {
+    display:inline-block; position: absolute; right:0; top:-10px;
+    img {max-width:50px;}
+  }
+}
 h1 {margin-top:15px;}
 .upper {text-transform: uppercase;}
 .container {
@@ -160,6 +172,7 @@ body {
     }
     .helloasso {
       text-align:center;
+      .thank-you {margin-top:20px;}
       .inner {
         display:inline-block;
         padding:10px; border:2px solid @vc-hover; border-radius:4px;
@@ -324,6 +337,15 @@ body {
   #footer {max-width:510px;}
 }
 @media screen and (max-width: 574px) {
+
+  .title.upper {
+    font-size:16px; line-height:normal;
+    a {
+      top:5px;
+    }
+  }
+
+
   .container {padding:0;}
   .info {
     &.pic {
