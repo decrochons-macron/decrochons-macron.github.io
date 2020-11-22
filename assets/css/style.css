@@ -1,5 +1,5 @@
 /* Variables */
-/* Additional slideshow css */
+/* Additional slideshow css  */
 [class*="slideshow"] {
   max-width: 600px;
   height: 450px;
@@ -76,11 +76,6 @@ h1 {
 #header {
   background: #fff;
   flex: 0 1 auto;
-  /* The above is shorthand for:
-flex-grow: 0,
-flex-shrink: 1,
-flex-basis: auto
-  */
 }
 #header .navbar-brand {
   font-weight: bold;
@@ -372,6 +367,18 @@ body.lang-fr .flags .fr {
   width: 100%;
   height: 100%;
   margin: auto;
+}
+.page.page-merci .inline-block {
+  max-width: 100%;
+  width: 800px;
+}
+.page.page-merci .links {
+  margin-right: 10px;
+}
+.page.page-merci .heading {
+  border: 1px solid #690F0F;
+  border-radius: 5px;
+  padding: 10px;
 }
 .page.page-program {
   text-align: center;
