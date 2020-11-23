@@ -228,8 +228,38 @@ body {
     }
   }
   &.page-merci {
-    .inline-block {max-width:100%; width:800px;}
-    .links {margin-right:10px;}
+    h3 .fa-heart {margin-right:15px;}
+    .inline-block {
+      max-width:100%; width:800px;
+      .links {
+        margin-right:10px;
+        display: flex; flex-direction: row; /*justify-content: ;*/
+        a {
+          display:inline-block; width:80px; text-align:center;
+          border-radius:5px; background:#ddd;
+          margin:0 10px 0 0;padding:5px;
+          .title {line-height:normal; font-size:12px; margin-bottom:0;}
+          &:hover {background:#ccc;}
+        }
+      }
+      .merci-block {
+        position: relative; padding-left:28px; margin-top:40px;
+        .fa {position: absolute; top:5px; left:0;}
+        .fa-paint-brush {color:orange;}
+        .fa-music {color:purple;}
+        .fa-bullhorn {color:green;}
+        .fa-gavel {color:black;}
+        .fa-hand-holding-heart {color:red;}
+        .fa-atom {color:blue;}
+
+        .title {font-weight:bold;}
+        .detail {
+          a {text-decoration: underline;}
+        }
+      }
+    }
+
+
     .heading {border:1px solid @vc-hover; border-radius:5px; padding:10px;}
   }
   &.page-program {

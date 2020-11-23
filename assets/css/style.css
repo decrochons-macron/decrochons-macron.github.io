@@ -368,12 +368,69 @@ body.lang-fr .flags .fr {
   height: 100%;
   margin: auto;
 }
+.page.page-merci h3 .fa-heart {
+  margin-right: 15px;
+}
 .page.page-merci .inline-block {
   max-width: 100%;
   width: 800px;
 }
-.page.page-merci .links {
+.page.page-merci .inline-block .links {
   margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: ;*/
+}
+.page.page-merci .inline-block .links a {
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  background: #ddd;
+  margin: 0 10px 0 0;
+  padding: 5px;
+}
+.page.page-merci .inline-block .links a .title {
+  line-height: normal;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.page.page-merci .inline-block .links a:hover {
+  background: #ccc;
+}
+.page.page-merci .inline-block .merci-block {
+  position: relative;
+  padding-left: 28px;
+  margin-top: 40px;
+}
+.page.page-merci .inline-block .merci-block .fa {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.page.page-merci .inline-block .merci-block .fa-paint-brush {
+  color: orange;
+}
+.page.page-merci .inline-block .merci-block .fa-music {
+  color: purple;
+}
+.page.page-merci .inline-block .merci-block .fa-bullhorn {
+  color: green;
+}
+.page.page-merci .inline-block .merci-block .fa-gavel {
+  color: black;
+}
+.page.page-merci .inline-block .merci-block .fa-hand-holding-heart {
+  color: red;
+}
+.page.page-merci .inline-block .merci-block .fa-atom {
+  color: blue;
+}
+.page.page-merci .inline-block .merci-block .title {
+  font-weight: bold;
+}
+.page.page-merci .inline-block .merci-block .detail a {
+  text-decoration: underline;
 }
 .page.page-merci .heading {
   border: 1px solid #690F0F;
