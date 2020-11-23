@@ -403,9 +403,9 @@ body.lang-fr .flags .fr {
   padding-left: 28px;
   margin-top: 40px;
 }
-.page.page-merci .inline-block .merci-block .fa {
+.page.page-merci .inline-block .merci-block .fa.pre-title {
   position: absolute;
-  top: 5px;
+  top: 3px;
   left: 0;
 }
 .page.page-merci .inline-block .merci-block .fa-paint-brush {
@@ -425,6 +425,18 @@ body.lang-fr .flags .fr {
 }
 .page.page-merci .inline-block .merci-block .fa-atom {
   color: blue;
+}
+.page.page-merci .inline-block .merci-block .item {
+  margin-right: 10px;
+  display: inline-block;
+  /*white-space: nowrap;*/
+}
+.page.page-merci .inline-block .merci-block .item .fa-square {
+  color: purple;
+  font-size: 9px;
+  margin-right: 4px;
+  position: relative;
+  top: -3px;
 }
 .page.page-merci .inline-block .merci-block .title {
   font-weight: bold;
@@ -612,6 +624,16 @@ body.lang-fr .flags .fr {
   }
 }
 @media screen and (max-width: 574px) {
+  .page.page-merci .inline-block .merci-block .item {
+    display: block;
+    position: relative;
+    padding-left: 15px;
+  }
+  .page.page-merci .inline-block .merci-block .item .fa {
+    position: absolute;
+    left: 0;
+    top: 6px;
+  }
   .title.upper {
     font-size: 16px;
     line-height: normal;
