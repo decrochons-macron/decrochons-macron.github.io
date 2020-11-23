@@ -448,6 +448,14 @@ body.lang-fr .flags .fr {
   border: 1px solid #690F0F;
   border-radius: 5px;
   padding: 10px;
+  line-height: 28px;
+}
+.page.page-merci .heading .inline-thanks {
+  font-family: georgia, Arial;
+  color: green;
+  font-size: 32px;
+  position: relative;
+  top: 3px;
 }
 .page.page-program {
   text-align: center;
