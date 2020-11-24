@@ -368,6 +368,9 @@ body.lang-fr .flags .fr {
   height: 100%;
   margin: auto;
 }
+.page.page-merci .image-area {
+  margin: 30px 0;
+}
 .page.page-merci h3 .fa-heart {
   margin-right: 15px;
 }
@@ -376,24 +379,26 @@ body.lang-fr .flags .fr {
   width: 800px;
 }
 .page.page-merci .inline-block .links {
-  margin-right: 10px;
   display: flex;
   flex-direction: row;
-  /*justify-content: ;*/
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .page.page-merci .inline-block .links a {
   display: inline-block;
   width: 80px;
   text-align: center;
+  min-height: 96px;
   border-radius: 5px;
   background: #ddd;
-  margin: 0 10px 0 0;
+  margin: 10px;
   padding: 5px;
 }
 .page.page-merci .inline-block .links a .title {
   line-height: normal;
   font-size: 12px;
   margin-bottom: 0;
+  margin-top: 4px;
 }
 .page.page-merci .inline-block .links a:hover {
   background: #ccc;
