@@ -409,9 +409,10 @@ body.lang-fr .flags .fr {
   padding-left: 28px;
   margin-top: 40px;
 }
-.page.page-merci .inline-block .merci-block .fa.pre-title {
+.page.page-merci .inline-block .merci-block .fa.pre-title,
+.page.page-merci .inline-block .merci-block .fas.pre-title {
   position: absolute;
-  top: 3px;
+  top: 5px;
   left: 0;
 }
 .page.page-merci .inline-block .merci-block .fa-paint-brush {
@@ -431,6 +432,9 @@ body.lang-fr .flags .fr {
 }
 .page.page-merci .inline-block .merci-block .fa-atom {
   color: blue;
+}
+.page.page-merci .inline-block .merci-block .fa-euro-sign {
+  color: goldenrod;
 }
 .page.page-merci .inline-block .merci-block .item {
   margin-right: 10px;
