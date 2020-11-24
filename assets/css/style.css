@@ -402,6 +402,7 @@ body.lang-fr .flags .fr {
 }
 .page.page-merci .inline-block .links a:hover {
   background: #ccc;
+  text-decoration: none;
 }
 .page.page-merci .inline-block .merci-block {
   position: relative;
