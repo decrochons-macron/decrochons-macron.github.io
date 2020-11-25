@@ -411,6 +411,7 @@ body.lang-fr .flags .fr {
   font-size: 12px;
   margin-bottom: 0;
   margin-top: 4px;
+  color: #333;
 }
 .page.page-merci .inline-block .links a:hover {
   background: #ccc;
