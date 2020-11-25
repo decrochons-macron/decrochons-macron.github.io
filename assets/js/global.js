@@ -174,6 +174,14 @@ global.getPage = function (page) {
     global.gotoAnchor = bits[1];
   }
   //window.history.pushState('page' + page, 'Title', "#p-" + page);
+  if (typeof (gtag) != 'undefined') {
+    console.log("Send event to Google");
+    gtag('event', "page", {
+      'event_category': page,
+      'event_label': "clicked"
+    });
+  }
+
   global.get(page)
 }
 
