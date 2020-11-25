@@ -42,17 +42,24 @@ body {
 .main-wrapper .links {
   padding-left: 13px;
 }
-.title.upper {
+.title.oldupper {
   position: relative;
   padding-right: 60px;
 }
-.title.upper a {
+.title.oldupper ul {
+  padding-left: 15px;
+  margin-top: 10px;
+}
+.title.oldupper ul li {
+  margin-top: 10px;
+}
+.title.oldupper a {
   display: inline-block;
   position: absolute;
   right: 0;
-  top: -10px;
+  top: 10px;
 }
-.title.upper a img {
+.title.oldupper a img {
   max-width: 50px;
 }
 h1 {
@@ -671,11 +678,11 @@ body.lang-fr .flags .fr {
     left: 0;
     top: 6px;
   }
-  .title.upper {
+  .title.oldupper {
     font-size: 16px;
     line-height: normal;
   }
-  .title.upper a {
+  .title.oldupper a {
     top: 5px;
   }
   .container {
