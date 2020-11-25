@@ -10,6 +10,10 @@
         dataLayer.push(arguments);
       }
       gtag('js', new Date());
+      gtag('set',{
+        cookie_domain: 'decrochons-macron.github.io',
+        cookie_flags: 'SameSite=None;Secure',
+      });
       gtag('config', 'G-DJC1QLRWF0', {
         cookie_domain: 'decrochons-macron.github.io',
         cookie_flags: 'SameSite=None;Secure',
