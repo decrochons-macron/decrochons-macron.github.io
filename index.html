@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--https://analytics.google.com/analytics/web/provision/?pli=1#/p254120848/realtime/overview-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJC1QLRWF0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('set',{
+        cookie_domain: 'decrochons-macron.github.io',
+        cookie_flags: 'SameSite=None;Secure',
+      });
+      gtag('config', 'G-DJC1QLRWF0', {
+        cookie_domain: 'decrochons-macron.github.io',
+        cookie_flags: 'SameSite=None;Secure',
+      });
+    </script>
     <title>Décrochons Macron - Procès à Valence</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -16,14 +34,14 @@
     <link rel="shortcut icon" href="assets/css/images/topbanner.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css?v=15" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css?v=18" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/slideshow/square1.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <!--<script src="assets/js/mustache.js"></script>-->
     <script src="assets/slideshow/square1.min.js"></script>
-    <script src="assets/js/global.js?v=13"></script>
+    <script src="assets/js/global.js?v=17"></script>
     <script src="assets/js/vc.js"></script>
     <script src="assets/js/jquery.cookie.js"></script>
     <!--
@@ -40,7 +58,10 @@
           Take a look at https://valence-en-transition.github.io, where Mary has created a super little supporting video...
           -->
           <div class="header-wrapper">
-            <div class="header-image" align="center"><img width="1110" height="177" src="assets/images/anvcop21-banner-small.jpg"/></div>
+            <div class="header-image" align="center">
+              <!--<img width="1110" height="177" src="assets/images/anvcop21-banner-small.jpg"/>-->
+              <img width="1110" height="584" src="assets/images/decroche2.png"/>
+            </div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <a class="navbar-brand" href="#p-accueil">Décrochons Macron</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,15 +75,16 @@
                       <span class="show-en">Home</span>
                     </a>
                   </li>
-                  <!--
                   <li class="nav-item">
                     <a class="nav-link click active" href="#p-program">
                       <span class="show-fr">Programme</span>
+                    </a>
                   </li>
+                  <!--
                   <li class="nav-item">
                     <a class="nav-link click" href="#p-merci">
                       <span class="show-fr">Remerciements</span>
-                      <span class="show-en">Thank-you</span>
+                      <span class="show-en">Thank you</span>
                     </a>
                   </li>
                   -->
